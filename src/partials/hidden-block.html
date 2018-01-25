@@ -1,0 +1,76 @@
+<div class="hidden-block">
+
+    <div id="call_success">
+         <div class="call-success-wrap">
+             <div class="call-success-title"> Спасибо за заявку!</div>
+             <div class="call-success-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+         </div>
+    </div>
+
+<!--     <div id="call-popup">
+    <form action="ajax.php" class="contact-form">
+        <div class="contact-form-title">
+            Title
+        </div>
+        <div class="contact-form-row cfix">
+            <div class="contact-form-item">
+                <div class="contact-form-item-input form_row">
+                    <div class="form_input">
+                        <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-item">
+                <div class="contact-form-item-input form_row">
+                    <div class="form_input">
+                        <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form-row cfix">
+            <div class="contact-form-item">
+                <button type="submit" class="contact-submit">
+                    <span>Отправить заявку</span>
+                </button>
+            </div>
+        </div>
+    </form>
+</div> -->
+
+    <div id="сall-order" class="сall-order">
+      <div class="сall-order__title">
+        <h4>Заказ звонка</h4>
+      </div>
+      <div class="сall-order__text">
+        <p>Оставьте номер телефона, и наш сотрудник перезвонит Вам</p>
+      </div>
+      <form action="ajax-programer.php" class="js-callForm" name="сall-form">
+        <div class="сall-order__field">
+          <input type="text" class="tel-mask" name="tel" placeholder="Телефон" required />
+          <input type="hidden" name="page" >
+        </div>
+        <button type="submit" class="button-round">Отправить</button>
+      </form>
+    </div>
+
+    <div id="service-order" class="service-order">
+      <div class="service-order__title">
+        <h4>Именно из его трактата о пределах добра. Использованием lorem шрифтов</h4>
+      </div>
+      <form action="ajax-programer.php" class="js-serviceForm" name="service-form">
+        <div class="form-field">
+          <input type="text" name="name" placeholder="Имя" />
+        </div>
+        <div class="form-field">
+          <input type="tel" class="tel-mask" name="tel" placeholder="Телефон" />
+        </div>
+        <div class="form-field">
+          <input type="email" name="email" placeholder="E-mail" required />
+          <input type="hidden" name="plan" />
+          <input type="hidden" name="page" />
+        </div>
+        <button type="submit" class="button-round">Отправить</button>
+      </form>
+    </div>
+</div>

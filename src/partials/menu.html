@@ -1,0 +1,109 @@
+<div class="menu">
+  <ul class="menu-nav">
+    <li class="menu-nav__item">
+      <a href="#search-popup" class="menu-nav__link js-searchPopup">
+        <span class="menu-nav__search-icon"></span>
+      </a>
+    </li>
+    <li class="menu-nav__item">
+      <a href="#" class="menu-nav__link menu-nav__link--big js-menuLink">
+        <span class="menu-nav__burger-icon"></span>
+      </a>
+    </li>
+    <li class="menu-nav__item">
+      <a href="#сall-order" class="menu-nav__link js-сallPopup" data-page="Главная">
+        <img src="images/tel-icon.png" alt="tel">
+      </a>
+    </li>
+  </ul>
+
+  <div class="menu__wrap js-menu">
+    <span class="menu__close close-icon js-menuClose"></span>
+    <div class="menu__wrap-second">
+      <div class="menu__wrap-second-wrap">
+        <ul class="menu-list">
+          <li class="">
+            <a href="services-inner.html" class="menu-list__link">Главная</a>
+          </li>
+          <li class="">
+            <a href="services-inner.html" class="menu-list__link">Услуги</a>
+            <ul class="">
+              <li class="">
+                <a href="sub-services.html">Экспресс-подборка персонала</a>
+              </li>
+              <li class="">
+                <a href="sub-services.html">Подборка персонала</a>
+              </li>
+              <li class="">
+                <a href="sub-services.html">Разработка системы мотивации</a>
+              </li>
+              <li class="">
+                <a href="sub-services.html">Обучение и развитие персонала</a>
+              </li>
+              <li class="">
+                <a href="sub-services.html">Кадровое делопроизводство</a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="#" class="menu-list__link">Новости</a>
+            <ul class="">
+              <li class="">
+                <a href="sub-services.html">Экспресс-подборка персонала</a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="#" class="menu-list__link">Проекты</a>
+          </li>
+<!--           <li class="">
+            <a href="#" class="menu-list__link">Цены</a>
+          </li> -->
+          <li class="">
+            <a href="#" class="menu-list__link">Наша команда</a>
+          </li>
+          <li class="">
+            <a href="about.html" class="menu-list__link">О компании</a>
+          </li>
+          <li class="">
+            <a href="about.html" class="menu-list__link">Контакты</a>
+          </li>
+        </ul>
+        <ul class="menu-socail">
+          <li class="menu-socail__item">
+            <a href="#">
+              <img src="images/vk-black.png" alt="vk">
+            </a>
+          </li>
+          <li class="menu-socail__item">
+            <a href="#">
+              <img src="images/twitter-black.png" alt="twitter">
+            </a>
+          </li>
+          <li class="menu-socail__item">
+            <a href="#">
+              <img src="images/googleplus-black.png" alt="google plus">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+<!--     <div class="menu-second-level">
+
+    </div> -->
+  </div>
+</div>
+
+<div id="search-popup" class="search-popup">
+  <a class="search-popup__close js-searchClose">
+    <i class="close-icon"></i>
+    <span>Закрыть</span>
+  </a>
+  <form action="ajax.php" name="search-form" class="search-popup__form">
+    <div class="search-popup__field">
+      <input type="search" id="main-search" class="js-search" name="search" placeholder="Пример запроса" required />
+      <a href="#" class="search-popup__clear close-icon js-searchClear"></a>
+    </div>
+    <button type="submit" class="button-round">Поиск</button>
+  </form>
+</div>

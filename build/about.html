@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Атолл</title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="styles/plagins.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+
+<div class="global-wrapper">
+  <section class="header" style="background-image: url('../images/about-bg.jpg')">
+    <a href="index.html" class="header__logo">
+      <img src="images/footer-logo.png" alt="logo">
+    </a>
+    <div class="header__title">
+      <h1>О компании</h1>
+    </div>
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs__item">
+        <a href="#">Главная</a>
+      </li>
+      <li class="breadcrumbs__item active">О компании</li>
+    </ul>
+  </section>
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+        <div class="menu">
+          <ul class="menu-nav">
+            <li class="menu-nav__item">
+              <a href="#search-popup" class="menu-nav__link js-searchPopup">
+                <span class="menu-nav__search-icon"></span>
+              </a>
+            </li>
+            <li class="menu-nav__item">
+              <a href="#" class="menu-nav__link menu-nav__link--big js-menuLink">
+                <span class="menu-nav__burger-icon"></span>
+              </a>
+            </li>
+            <li class="menu-nav__item">
+              <a href="#сall-order" class="menu-nav__link js-сallPopup" data-page="Главная">
+                <img src="images/tel-icon.png" alt="tel">
+              </a>
+            </li>
+          </ul>
+        
+          <div class="menu__wrap js-menu">
+            <span class="menu__close close-icon js-menuClose"></span>
+            <div class="menu__wrap-second">
+              <div class="menu__wrap-second-wrap">
+                <ul class="menu-list">
+                  <li class="">
+                    <a href="services-inner.html" class="menu-list__link">Главная</a>
+                  </li>
+                  <li class="">
+                    <a href="services-inner.html" class="menu-list__link">Услуги</a>
+                    <ul class="">
+                      <li class="">
+                        <a href="sub-services.html">Экспресс-подборка персонала</a>
+                      </li>
+                      <li class="">
+                        <a href="sub-services.html">Подборка персонала</a>
+                      </li>
+                      <li class="">
+                        <a href="sub-services.html">Разработка системы мотивации</a>
+                      </li>
+                      <li class="">
+                        <a href="sub-services.html">Обучение и развитие персонала</a>
+                      </li>
+                      <li class="">
+                        <a href="sub-services.html">Кадровое делопроизводство</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="#" class="menu-list__link">Новости</a>
+                    <ul class="">
+                      <li class="">
+                        <a href="sub-services.html">Экспресс-подборка персонала</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="#" class="menu-list__link">Проекты</a>
+                  </li>
+        <!--           <li class="">
+                    <a href="#" class="menu-list__link">Цены</a>
+                  </li> -->
+                  <li class="">
+                    <a href="#" class="menu-list__link">Наша команда</a>
+                  </li>
+                  <li class="">
+                    <a href="about.html" class="menu-list__link">О компании</a>
+                  </li>
+                  <li class="">
+                    <a href="about.html" class="menu-list__link">Контакты</a>
+                  </li>
+                </ul>
+                <ul class="menu-socail">
+                  <li class="menu-socail__item">
+                    <a href="#">
+                      <img src="images/vk-black.png" alt="vk">
+                    </a>
+                  </li>
+                  <li class="menu-socail__item">
+                    <a href="#">
+                      <img src="images/twitter-black.png" alt="twitter">
+                    </a>
+                  </li>
+                  <li class="menu-socail__item">
+                    <a href="#">
+                      <img src="images/googleplus-black.png" alt="google plus">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        <!--     <div class="menu-second-level">
+        
+            </div> -->
+          </div>
+        </div>
+        
+        <div id="search-popup" class="search-popup">
+          <a class="search-popup__close js-searchClose">
+            <i class="close-icon"></i>
+            <span>Закрыть</span>
+          </a>
+          <form action="ajax.php" name="search-form" class="search-popup__form">
+            <div class="search-popup__field">
+              <input type="search" id="main-search" class="js-search" name="search" placeholder="Пример запроса" required />
+              <a href="#" class="search-popup__clear close-icon js-searchClear"></a>
+            </div>
+            <button type="submit" class="button-round">Поиск</button>
+          </form>
+        </div>
+        <!-- Begin Why? -->
+        <section class="why">
+          <div class="mbox">
+            <h2>Почему Атолл?</h2>
+            <br>
+            <h3>Потому что этот живой организм характеризует нашу компанию!</h3>
+            <br>
+            <ul>
+              <li>основание Атолла это вершина подводного вулкана, в нашем случае это энергия и активная жизненная позиция</li>
+              <li>каркас Атолла это коралловый риф, живой организм, в нашем случае это прочная конструкция сложенная из знаний, компетенций и жизненного опыта нашей команды</li>
+              <li>форма Атолла - круг, это наша сплоченность и четкое взаимодействие на всех уровнях</li>
+              <li>внутри Атолла лагуна – это наш креатив, драйв, инициатива, это наши проекты</li>
+              <li>лагуна Атолла соединяется через несколько проливов с океаном – это наша связь с рынком, нашими партнерами, это живые реки постоянного взаимодействия.</li>
+            </ul>
+            <br>
+            <p>Внутри и снаружи атолла постоянно идет жизнь он находится в постоянном взаимодействии с внешней средой, так и мы изменяемся к лучшему, учимся чему-то новому и благодаря накопленному опыту, знаниям и умениям, помогаем нашим партнерам приобрести то, чего им недостает, стать лучше и сильнее!</p>
+          </div>
+        </section>
+        <!-- End Why? -->
+        <!-- Begin Whats New? -->
+        <section class="whats-new">
+          <div class="mbox">
+            <div class="title">
+              <h2>Что нового?</h2>
+            </div>
+            <ul class="news-list">
+              <li>
+                <a href="news-inner.html" class="news-small">
+                  <img src="images/news05.jpg" alt="">
+                  <span class="news-small__content">
+                    <span class="news-small__title">Дизайн-проект нового отеля</span>
+                    <span class="news-small__date">01.01.2014</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="news-inner.html" class="news-small">
+                  <img src="images/news06.jpg" alt="">
+                  <span class="news-small__content">
+                    <span class="news-small__title">Дизайн-проект нового отеля</span>
+                    <span class="news-small__date">01.01.2014</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="news-inner.html" class="news-small">
+                  <img src="images/news02.jpg" alt="">
+                  <span class="news-small__content">
+                    <span class="news-small__title">Дизайн-проект нового отеля</span>
+                    <span class="news-small__date">01.01.2014</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="news-inner.html" class="news-small">
+                  <img src="images/news03.jpg" alt="">
+                  <span class="news-small__content">
+                    <span class="news-small__title">Дизайн-проект нового отеля</span>
+                    <span class="news-small__date">01.01.2014</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- End Whats New? -->
+        <!-- Begin Reviews -->
+        <section id="reviews" class="reviews">
+          <div class="reviews__wrap">
+            <div class="reviews__quote">
+              <div class="reviews__title">
+                <h2>Отзывы наших клиентов</h2>
+              </div>
+              <div class="reviews__slider js-reviews">
+                <blockquote class="reviews__slider-item">
+                  <p>Или менее равномерно, без признаков концентраций к плоскости галактики тоже. Расположена в том, что это были. Бы при наблюдениях в этой площадке ярких оптических и они расположены. Располагающихся вне этой полосы и оптически.</p>
+        
+                  <p><b>Валентин Викторович</b>, генеральный директор Time Pad</p>
+                </blockquote>
+                <blockquote class="reviews__slider-item">
+                  <p>2Или менее равномерно, без признаков концентраций к плоскости галактики тоже. Расположена в том, что это были. Бы при наблюдениях в этой площадке ярких оптических и они расположены. Располагающихся вне этой полосы и оптически.</p>
+        
+                  <p><b>Валентин Викторович</b>, генеральный директор Time Pad</p>
+                </blockquote>
+                <blockquote class="reviews__slider-item">
+                  <p>3Или менее равномерно, без признаков концентраций к плоскости галактики тоже. Расположена в том, что это были. Бы при наблюдениях в этой площадке ярких оптических и они расположены. Располагающихся вне этой полосы и оптически.</p>
+        
+                  <p><b>Валентин Викторович</b>, генеральный директор Time Pad</p>
+                </blockquote>
+                <blockquote class="reviews__slider-item">
+                  <p>4Или менее равномерно, без признаков концентраций к плоскости галактики тоже. Расположена в том, что это были. Бы при наблюдениях в этой площадке ярких оптических и они расположены. Располагающихся вне этой полосы и оптически.</p>
+        
+                  <p><b>Валентин Викторович</b>, генеральный директор Time Pad</p>
+                </blockquote>
+              </div>      
+            </div>
+            <div class="reviews-nav">
+              <a href="#" class="arrow arrow--top-prev js-reviewsPrev"></a>
+              <ul class="reviews-nav__slider js-reviewsNav">
+                <li class="reviews-nav__item">
+                  <img src="images/quote-avatar.jpg" alt="avatar">
+                </li>
+                <li class="reviews-nav__item">
+                  <img src="images/quote-avatar2.jpg" alt="avatar">
+                </li>
+                <li class="reviews-nav__item">
+                  <img src="images/quote-avatar3.jpg" alt="avatar">
+                </li>
+                <li class="reviews-nav__item">
+                  <img src="http://korysno.pro/wp-content/uploads/2015/10/mark-zuckerberg-people.jpg" alt="avatar">
+                </li>
+              </ul>
+              <a href="#" class="arrow arrow--bottom-next js-reviewsNext"></a>
+            </div>
+          </div>
+        </section>
+        <!-- End Reviews -->
+        <!-- Begin Clients 2 -->
+        <div class="clients-second">
+          <div class="clients-second__title-wrap">
+            <div class="title">
+              <h2>Наши клиенты</h2>
+            </div>
+          </div>
+          <div class="clients-second__wrap">
+            <a href="#" class="arrow arrow--left-prev js-clientsPrev"></a>
+            <ul class="clients-slider js-clients">
+              <li class="clients-item">
+                <a href="http://www3.lenovo.com/ru/ru/" target="_blank">
+                  <img src="images/lenovo-logo.png" alt="lenovo">
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="https://www.asus.com/" target="_blank">
+                  <img src="images/asus-logo.png" alt="asus">
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="http://www.iconbit.ru/" target="_blank">
+                  <img src="images/iconbit-logo.png" alt="iconbit">
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="https://www.lexmark.com/" target="_blank">
+                  <img src="images/lexmark-logo.png" alt="lexmark">
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="http://www.toshiba.ru/" target="_blank">
+                  <img src="images/toshiba-logo.png" alt="toshiba">
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="https://www.microsoft.com/" target="_blank">
+                  <img src="images/microsoft-logo.png" alt="microsoft">
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="https://www.tinkoff.ru/" target="_blank">
+                  <img src="images/tinkoff-logo.png" alt="tinkoff bank">
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="https://www.tumblr.com/" target="_blank">
+                  <img src="images/tumblr-logo.png" alt="tumblr">
+                </a>
+              </li>
+            </ul>
+            <a href="#" class="arrow arrow--right-next js-clientsNext"></a>
+          </div>
+        </div>
+        <!-- End Clients 2 -->
+
+    </div>
+    <!-- /MAIN -->
+
+    <div class="hidden-block">
+    
+        <div id="call_success">
+             <div class="call-success-wrap">
+                 <div class="call-success-title"> Спасибо за заявку!</div>
+                 <div class="call-success-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+             </div>
+        </div>
+    
+    <!--     <div id="call-popup">
+        <form action="ajax.php" class="contact-form">
+            <div class="contact-form-title">
+                Title
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <button type="submit" class="contact-submit">
+                        <span>Отправить заявку</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div> -->
+    
+        <div id="сall-order" class="сall-order">
+          <div class="сall-order__title">
+            <h4>Заказ звонка</h4>
+          </div>
+          <div class="сall-order__text">
+            <p>Оставьте номер телефона, и наш сотрудник перезвонит Вам</p>
+          </div>
+          <form action="ajax-programer.php" class="js-callForm" name="сall-form">
+            <div class="сall-order__field">
+              <input type="text" class="tel-mask" name="tel" placeholder="Телефон" required />
+              <input type="hidden" name="page" >
+            </div>
+            <button type="submit" class="button-round">Отправить</button>
+          </form>
+        </div>
+    
+        <div id="service-order" class="service-order">
+          <div class="service-order__title">
+            <h4>Именно из его трактата о пределах добра. Использованием lorem шрифтов</h4>
+          </div>
+          <form action="ajax-programer.php" class="js-serviceForm" name="service-form">
+            <div class="form-field">
+              <input type="text" name="name" placeholder="Имя" />
+            </div>
+            <div class="form-field">
+              <input type="tel" class="tel-mask" name="tel" placeholder="Телефон" />
+            </div>
+            <div class="form-field">
+              <input type="email" name="email" placeholder="E-mail" required />
+              <input type="hidden" name="plan" />
+              <input type="hidden" name="page" />
+            </div>
+            <button type="submit" class="button-round">Отправить</button>
+          </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer_placeholder"></div>
+    <footer id="footer" class="footer">
+      <div class="footer__logo-wrap">
+        <a href="index.html" class="footer__logo">
+          <img src="images/footer-logo.png" alt="logo">
+        </a>
+      </div>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <div class="footer__title">
+            <h3>О компании</h3>
+          </div>
+          <div class="footer__content">
+            <p>Это пример текста, который вы можете добавить в данный блок. Короткий текст, описывающий тематику сайта.</p>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <div class="footer__title">
+            <h3>Разделы сайта</h3>
+          </div>
+          <ul class="footer__nav">
+            <li>
+              <a href="#">Проекты</a>
+            </li>
+            <li>
+              <a href="#">Услуги</a>
+            </li>
+            <li>
+              <a href="prices.html">Цены</a>
+            </li>
+            <li>
+              <a href="about.html">О компании</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__list-item">
+          <div class="footer__title">
+            <h3>КОНТАКТЫ</h3>
+          </div>
+          <div class="footer__content">
+            <p>
+              г. Москва, 22-ой км.
+              <br>Киевского шоссе,
+              <br>Бизнес Парк Румянцево, корпус А,
+              <br>фисный подъезд №9, оф. 809-1а
+              <br>
+              <a href="tel:74999590509">+7 499 959 05 09</a>
+              <br>
+              <a href="mailto:info@scatoll.ru">info@scatoll.ru</a>
+            </p>
+          </div>
+        </li>
+      </ul>
+      <!-- <a href="http://sheep.fish/" class="footer__dev-logo" target="_blank">
+        <img src="images/dev-logo.png" alt="Sheep.Fish">
+      </a> -->
+      <div class="footer__copyright">
+        <p>Атолл 2016-2017 © Все права защищены</p>
+      </div>
+    </footer>
+    <!-- /FOOTER -->
+
+</div>
+
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="scripts/validate_script.js"></script>
+
+<script src="scripts/plagins.js"></script>
+
+<script src="scripts/main.js"></script>
+
+<!-- /SCRIPTS -->
+
+<script>
+  var mapZoom = 16;
+  var mapMarkerY = 55.635330;
+  var mapMarkerX = 37.438223;
+  var mapCenterY = 55.635330;
+  var mapCenterX = 37.438223;
+</script>
+
+</body>
+</html>

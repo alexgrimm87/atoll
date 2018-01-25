@@ -1,0 +1,22 @@
+<section class="ask">
+  <div class="ask__wrap">
+    <div class="ask__title">
+      <h2>Задайте вопрос</h2>
+    </div>
+    <form action="ajax-programer.php" name="ask-form" class="ask__form js-askForm">
+      <div class="ask__field-row">
+        <div class="form-field">
+          <input type="text" name="name" placeholder="Имя" />
+        </div>
+        <div class="form-field">
+          <input type="email" name="email" placeholder="E-mail" required />
+        </div>
+      </div>
+      <div class="form-field">
+        <input type="text" name="message" placeholder="Ваш вопрос" />
+        <input type="hidden" name="page" value="Обучение персонала">
+      </div>
+      <button type="submit" class="button-round">Отправить</button>
+    </form>
+  </div>
+</section>
